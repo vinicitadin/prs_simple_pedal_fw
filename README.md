@@ -50,7 +50,7 @@ Depois e só compilar o código para sua placa de uso
 
 Após passar o código para sua placa e a mesma estiver recebendo e lendo informações das células de carga, você monitorar esses valores no joystick do windows (se este for seu sistema operacional).
 
-Digite o comandos "win + R" e digite o comando "joy.cpl" para abrir os monitoramento dos contraladores de jogo.
+Digite os comandos "win + R" e digite o comando "joy.cpl" para abrir os monitoramento dos contraladores de jogo.
 
 Na parte superior da janela você poderá ver os eixos variando conforme a aplicação de determinada força na célula de carga.
 
