@@ -36,7 +36,7 @@ board = genericSTM32F103C8
 #define CLK3 PB13
 ```
 
-* É interessante fazer testes na sua célula de carga para obter o melhor valor de calibração da sua célula de carga
+* É interessante fazer testes na sua célula de carga para obter o melhor valor de calibração da mesma
 ```C++
 #define CALIB_VALUE 82400 // Define o fator de calibração da célula de carga que eu usei
 #define CALIB_MAX 255 // Define o fator de calibração máximo dos módulos HX711
@@ -53,6 +53,7 @@ Após passar o código para sua placa e a mesma estiver recebendo e lendo inform
 Digite o comandos "win + R" e digite o comando "joy.cpl" para abrir os monitoramento dos contraladores de jogo.
 
 Na parte superior da janela você poderá ver os eixos variando conforme a aplicação de determinada força na célula de carga.
+
 ![Captura de tela 2024-06-24 112346](https://github.com/vinicitadin/prs_simple_pedal_fw/assets/167343994/0f7deeea-aec8-4548-8466-30d4806ad946)
 
 
