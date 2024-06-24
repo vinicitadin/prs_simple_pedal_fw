@@ -7,16 +7,6 @@
 USBHID HID;
 HIDJoystick simplePedal(HID);
 
-// Definindo as pinagens dos sensores
-#define DAT1 PB1
-#define CLK1 PB0
-
-#define DAT2 PB11
-#define CLK2 PB10
-
-#define DAT3 PB12
-#define CLK3 PB13
-
 // Criando os módulos HX711
 HX711 acceleratorSensor;
 HX711 brakeSensor;
